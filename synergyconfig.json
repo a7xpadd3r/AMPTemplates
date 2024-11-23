@@ -1,0 +1,73 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Sets the name of the server that appears in the server list.",
+        "Keywords": "server,name",
+        "FieldName": "hostname",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "hostname",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Powered Synergy Server",
+        "Placeholder": "AMP Powered Synergy Server",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "RCON Password",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "rcon,password",
+        "FieldName": "{{$RemoteAdminPassword}}",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "{{$RemoteAdminPassword}}",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "LAN Server",
+        "Category": "Server Settings",
+        "Description": "If enabled, the server will operate as a LAN server: no heartbeat, no authentication, and no non-class C addresses.",
+        "Keywords": "lan,server",
+        "FieldName": "sv_lan",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sv_lan",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0",
+        "Placeholder": "0",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Server Settings",
+        "Description": "Sets the password required to connect to the server. Default is no password.",
+        "Keywords": "server,password",
+        "FieldName": "sv_password",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sv_password",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
