@@ -69,7 +69,7 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
-    }
+    },
     {
         "DisplayName":"Player Limit",
         "Category":"Server Settings",
