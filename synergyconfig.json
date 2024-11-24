@@ -29,7 +29,7 @@
         "DefaultValue": "",
         "Placeholder": "",
         "Suffix": "",
-        "Hidden": true,
+        "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
