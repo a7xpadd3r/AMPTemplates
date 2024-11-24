@@ -70,4 +70,18 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     }
+    {
+        "DisplayName":"Player Limit",
+        "Category":"Server Settings",
+        "Description":"Sets the maximum number of players allowed on the server at one time.",
+        "Keywords":"max,players,limit,maxplayers",
+        "FieldName":"$MaxUsers",
+        "InputType":"number",
+        "MinValue":"1",
+        "ParamFieldName":"maxplayers",
+        "DefaultValue":"4",
+        "Placeholder":"4",
+        "Suffix":"players",
+        "EnumValues":{}
+    },
 ]
